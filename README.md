@@ -63,7 +63,7 @@ app.baseURL = 'your url'
 
 # Screenshots
 
-![Welcome](screenshots/welcome.png)
+![Welcome](screenshots/mainpage.png)
 ![Register Page](screenshots/register.png)
 ![Login Page](screenshots/login.png)
 ![Dashboard Page](screenshots/dashboard.png)

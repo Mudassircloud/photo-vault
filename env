@@ -1,0 +1,45 @@
+#--------------------------------------------------------------------
+# ENVIRONMENT
+#--------------------------------------------------------------------
+
+CI_ENVIRONMENT = development
+
+#--------------------------------------------------------------------
+# APP
+#--------------------------------------------------------------------
+
+app.baseURL = 'http://localhost:8080/'
+app.forceGlobalSecureRequests = false
+app.CSPEnabled = false
+
+#--------------------------------------------------------------------
+# DATABASE
+#--------------------------------------------------------------------
+
+database.default.hostname = localhost
+database.default.database = photo_vault
+database.default.username = root
+database.default.password =
+database.default.DBDriver = MySQLi
+database.default.DBPrefix =
+database.default.port = 3306
+
+#--------------------------------------------------------------------
+# ENCRYPTION
+#--------------------------------------------------------------------
+
+# This is a random key for now. We'll use per-user keys later.
+encryption.key = YourRandom32CharKeyHere1234567890
+
+#--------------------------------------------------------------------
+# SESSION
+#--------------------------------------------------------------------
+
+session.driver = 'CodeIgniter\Session\Handlers\FileHandler'
+session.savePath = writable/session
+
+#--------------------------------------------------------------------
+# LOGGER
+#--------------------------------------------------------------------
+
+logger.threshold = 4
